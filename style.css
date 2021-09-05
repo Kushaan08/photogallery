@@ -1,0 +1,31 @@
+#mynavbar{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: black;
+    text-align: center;
+    font-size: 23px;
+}
+
+#img1{
+    width: 100%;
+    height: 800px;
+}
+
+.img2{
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    
+}
+
+#mycarousel{
+    background-color: red;
+}
+#mycarousel img{
+    height: 350px;
+}
+
+.carousel-inner{
+    margin: 15px;
+}

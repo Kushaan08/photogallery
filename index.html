@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Photo Gallery</title>
+ 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <center>
+  <div class="menu1" id="mynavbar">
+ 
+  
+<span>  <a href="#home">Home</a></span>&nbsp;&nbsp;
+<span>  <a href="#gridview">Grid view</a></span>&nbsp;&nbsp;
+<span> <a href="#slideview">Slide view</a></span> &nbsp;&nbsp;
+
+</div>
+<div class="container">
+  <section id="Home">
+    <div class="page-header">
+      <h2 class="text-capitalize">Avengers</h2>
+      <img id="img1" class="img-responsive" src="download (4).jfif">
+    </div>
+  </section>
+  <br>
+  <br>
+
+  <section id="gridview">
+    <h2 class="text-capitalize">Grid gallery</h2>
+    <div><img class="img2" src="download.jfif">
+      <img class="img2" src="download (1).jfif">
+    </div>
+
+    <div><img class="img2" src="download (2).jfif">
+      <img class="img2" src="download (3).jfif">
+    </div>
+    
+    
+
+  </section>
+
+  <section id="slideview">
+   <div id="mycarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#mycarousel" data-slide-to="1" ></li>
+      <li data-target="#mycarousel" data-slide-to="2" ></li>
+      <li data-target="#mycarousel" data-slide-to="3" ></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="download (1).jfif">
+      </div>
+
+      <div class="item">
+        <img src="download (2).jfif">
+      </div>
+      
+      <div class="item">
+        <img src="download (3).jfif">
+      </div>
+
+      <div class="item">
+        <img src="download (4).jfif">
+      </div>
+
+    </div>
+
+    <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+
+    <a class="right carousel-control" href="#mycarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+   
+
+   </div>
+
+
+
+  </section>
+</div>
+
+</center>
+</body>
+</html>
